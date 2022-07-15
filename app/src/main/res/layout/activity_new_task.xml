@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_Daily">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/main_color"
+        android:padding="25dp"
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Task"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/notf"
+            android:layout_marginLeft="150dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar"
+        android:background="@color/main_color"
+        android:padding="25dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:hint="Search Task"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/bg_linear"
+        android:padding="20dp"
+        >
+        <EditText
+            android:id="@+id/task_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Task Name"
+            android:padding="10dp"
+            android:background="@drawable/edit_bg"
+            />
+        <EditText
+            android:id="@+id/task_description"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/task_name"
+            android:hint="Description"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            />
+        <EditText
+            android:id="@+id/Category"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/task_description"
+            android:hint="Category"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            />
+        <EditText
+            android:id="@+id/Pick_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Category"
+            android:hint="Pick Date Time"
+            android:background="@drawable/edit_bg"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Add"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Pick_date"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:backgroundTint="@color/main_color"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

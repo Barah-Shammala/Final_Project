@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_border"
+    android:padding="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<TextView
+    android:id="@+id/daily_hour"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="10:00"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:textColor="#000"
+    android:textSize="18sp"
+    />
+    <TextView
+        android:id="@+id/daily_hour_s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/daily_hour"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/daily_task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Metting with client"
+        app:layout_constraintStart_toEndOf="@id/daily_hour"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/daily_task_rating"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/daily_task_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offcial"
+        app:layout_constraintStart_toEndOf="@id/daily_hour_s"
+        app:layout_constraintTop_toBottomOf="@id/daily_task_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#202020"
+        android:textSize="16sp"
+        android:layout_marginRight="40dp"
+        />
+
+    <ImageView
+        android:id="@+id/daily_task_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#202020"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/daily_task_name"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_star_border_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
