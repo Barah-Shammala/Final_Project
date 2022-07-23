@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Done">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/main_color"
+        android:padding="25dp"
+        >
+
+        <ImageView
+            android:id="@+id/done_task_backIcon"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done Task"
+            android:textColor="#fff"
+            android:textSize="22sp"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/notf"
+            android:layout_marginLeft="150dp"
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <LinearLayout
+        android:id="@+id/layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nav_bar"
+        android:background="@color/main_color"
+        android:padding="25dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#fff"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:hint="Search Task"
+            android:paddingLeft="20dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/task_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layout_search"
+        android:background="#4CAF50"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tasks_rv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/task_app"
+        app:layout_constraintBottom_toTopOf="@id/task_app2"
+        />
+    <TextView
+        android:id="@+id/task_app2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yesterday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tasks_rv"
+        android:background="#4CAF50"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tasks_rv2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/task_app2"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

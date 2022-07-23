@@ -17,6 +17,7 @@
         >
 
         <ImageView
+            android:id="@+id/new_task_backIcon"
             android:layout_width="40dp"
             android:layout_height="30dp"
             android:layout_marginRight="20dp"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:text="New Task"
             android:textColor="#fff"
-            android:textSize="25sp"/>
+            android:textSize="22sp"/>
         <ImageView
             android:layout_width="40dp"
             android:layout_height="30dp"

@@ -4,14 +4,29 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/splash_icon"
+        android:label="To Do List"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.MyFinalProject">
         <activity
+            android:name=".ImportantTask"
+            android:exported="false" />
+        <activity
+            android:name=".LaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Done"
+            android:exported="false" />
+        <activity
+            android:name=".Test_Calendar"
+            android:exported="false" />
+        <activity
+            android:name=".task_detailes"
+            android:exported="false" />
+        <activity
             android:name=".splashActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,9 +47,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>

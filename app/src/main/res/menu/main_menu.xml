@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/nav_newTask"
+            android:title="New Task"
+            android:icon="@drawable/playlist_add"/>
+        <item
+            android:id="@+id/nav_important"
+            android:title="Important"
+            android:icon="@drawable/ic_baseline_star_border_24"/>
+        <item
+            android:id="@+id/nav_done"
+            android:title="Done"
+            android:icon="@drawable/done"/>
+        <item
+            android:id="@+id/nav_later"
+            android:title="Later"
+            android:icon="@drawable/later"/>
+        <item
+            android:id="@+id/nav_category"
+            android:title="category"
+            android:icon="@drawable/local_offer"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            android:icon="@drawable/settings"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/login"/>
+    </group>
+</menu>

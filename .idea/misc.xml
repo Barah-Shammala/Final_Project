@@ -4,20 +4,35 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/bg_linear.xml" value="0.1575" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/check_bg.xml" value="0.1575" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/edit_bg.xml" value="0.1575" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/list_bg.xml" value="0.1575" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/list_border.xml" value="0.1575" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/logo_img_bg.xml" value="0.1575" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/menu_white.xml" value="0.1575" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/drawable/personal_img_bg.xml" value="0.1575" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_create_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_done.xml" value="0.25" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_home_daily.xml" value="0.22" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_important_task.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_later.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_login.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_nav_bar.xml" value="0.25" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_new_task.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/custom_list.xml" value="0.33" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_task_detailes.xml" value="0.25" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/activity_test_calendar.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/custom_list.xml" value="0.25" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/custom_list_important.xml" value="0.33" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/custom_list_month.xml" value="0.25" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/custom_month.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/fragment_daily.xml" value="0.25" />
         <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/fragment_monthly.xml" value="0.25" />
-        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/fragment_weekly.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/task_detailes.xml" value="0.22" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/fragment_weekly.xml" value="0.22" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/header.xml" value="0.33" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/layout/task_detailes.xml" value="0.25" />
+        <entry key="..\:/Users/kytc/Desktop/MyFinalProject/app/src/main/res/menu/main_menu.xml" value="0.33" />
       </map>
     </option>
   </component>
